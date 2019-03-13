@@ -130,13 +130,14 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  background-color: #ebebeb
 }
 #fh5co-aside.border {
   border-right: 1px solid #e6e6e6;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
-    width: 30%;
+    width: 25%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -152,6 +153,11 @@ figure {
 #fh5co-aside #fh5co-logo {
   text-align: center;
 }
+
+#fh5co-logo img {
+  border-radius: 500px;
+}
+
 #fh5co-aside #fh5co-main-menu ul {
   text-align: center;
   margin: 0;
@@ -283,7 +289,7 @@ figure {
 }
 @media screen and (max-width: 1200px) {
   #fh5co-main {
-    width: 70%;
+    width: 75%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -425,12 +431,12 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .fh5co-cards-pictures {
   padding: 1em 0;
-  background: #ebebeb;
+  background: #efe2ba;
 }
 
 .fh5co-cards {
   padding: 1em 0;
-  background: #f4c20d;
+  background: #efe2ba;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cards {
